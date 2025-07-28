@@ -3,6 +3,8 @@ import { createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import { createBrowserRouter } from 'react-router'
 import LayoutOne from './layout/LayoutOne'
 import Home from './pages/Home'
+import './App.css'
+
 
 const App = () => {
 

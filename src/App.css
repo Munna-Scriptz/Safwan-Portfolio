@@ -1,0 +1,6 @@
+/* ------------Banner----------- */
+.Outlined-Text {
+  color: transparent;
+  -webkit-text-stroke: 1px #1a5c58;
+  text-stroke: 1px #1a5c58;    
+}
