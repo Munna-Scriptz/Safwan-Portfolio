@@ -9,5 +9,34 @@ body{
   text-stroke: 1px #1a5c58;    
 }
 
+/* ------------Awards----------- */
+
+.logo-wrapper {
+  position: relative;
+  height: 555px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-img {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: dropOnce 1.5s ease forwards;
+}
+
+@keyframes dropOnce {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 

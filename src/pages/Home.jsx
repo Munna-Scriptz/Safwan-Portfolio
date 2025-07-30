@@ -4,6 +4,7 @@ import AboutMe from '../components/AboutMe'
 import MyPortfolio from '../components/MyPortfolio'
 import OurSkills from '../components/OurSkills'
 import Service from '../components/Service'
+import Awards from '../components/Awards'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <MyPortfolio/>
       <OurSkills/>
       <Service/>
+      <Awards/>
     </>
   )
 }
