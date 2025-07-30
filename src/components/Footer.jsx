@@ -1,0 +1,89 @@
+import React from 'react'
+import FooterLogo from '../assets/images/logo.png'
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router';
+
+const Footer = () => {
+  return (
+    <>
+        <footer className='mt-[90px] pb-[100px]'>
+            <div className="container">
+                <div id="FooterRow" className='flex items-center justify-between'>
+                    {/* --------First Column--------   */}
+                    <div>
+                        <img src={FooterLogo} alt="Logo" />
+                        <p className='font-jost text-[15px] w-[282px] text-[#4B7773] mt-[22px]'>Design League is the world’s leading community have for creatives to share, grow, and learn. Design League is the world’s leading community.</p>
+                        <div className='mt-[32px] flex items-center gap-[24px] text-[20px]'>
+                            <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
+                                <FaFacebookF/>
+                            </div>
+                            <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
+                                <FaTwitter/>
+                            </div>
+                            <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
+                                <RiInstagramFill />
+                            </div>
+                            <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
+                                <FaLinkedinIn />
+                            </div>
+                            <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
+                                <FaYoutube />
+                            </div>
+                        </div>
+                    </div>
+                    {/* --------second Column--------   */}
+                    <div>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Product</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                            <Link to={'/'}>Features</Link>
+                            <Link to={'/'}>Pricing</Link>
+                            <Link to={'/'}>Case studies</Link>
+                            <Link to={'/'}>Reviews</Link>
+                            <Link to={'/'}>Updates</Link>
+                        </div>
+                    </div>
+                    {/* --------third Column--------   */}
+                    <div>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Company</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                            <Link to={'/'}>About</Link>
+                            <Link to={'/'}>Contact us</Link>
+                            <Link to={'/'}>Careers</Link>
+                            <Link to={'/'}>Culture</Link>
+                            <Link to={'/'}>Blog</Link>
+                        </div>
+                    </div>
+                    {/* --------fourth Column--------   */}
+                    <div>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Support</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                            <Link to={'/'}>Getting started</Link>
+                            <Link to={'/'}>Help center</Link>
+                            <Link to={'/'}>Server status</Link>
+                            <Link to={'/'}>Report a bug</Link>
+                            <Link to={'/'}>Chat support</Link>
+                        </div>
+                    </div>
+                    {/* --------fifth Column--------   */}
+                    <div>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Downloads</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                            <Link to={'/'}>iOS</Link>
+                            <Link to={'/'}>Android</Link>
+                            <Link to={'/'}>Mac</Link>
+                            <Link to={'/'}>Windows</Link>
+                            <Link to={'/'}>Chrome</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </>
+  )
+}
+
+export default Footer
