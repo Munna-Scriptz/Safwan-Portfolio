@@ -12,10 +12,10 @@ const Service = () => {
             <div className="container">
                 <div id="Header" className='flex items-center justify-center flex-col gap-[24px]'>
                     <p className='font-vollkorn font-medium text-[18px] text-[#EF8100]'>SERVICE</p>
-                    <p className='font-vollkorn font-medium text-[50px] text-primary w-[475px] text-center'>09+ Years Experience in This Field</p>
+                    <p className='font-vollkorn font-medium lg:text-[50px] text-[42px] text-primary lg:w-[475px] w-full text-center'>09+ Years Experience in This Field</p>
                 </div>
                 {/* -------------Cards------------- */}
-                <div id='Cards' className='mt-[40px] flex items-center gap-[30px] justify-center'>
+                <div id='Cards' className='mt-[40px] flex lg:flex-row flex-col items-center gap-[30px] justify-center'>
                     <div className='w-[410px] bg-white p-[50px]'>
                         <img src={ServiceIcon1} alt="Image" />
                         <h2 className='font-vollkorn font-extrabold text-[24px] text-primary mt-[64px]'>Graphic Design</h2>
