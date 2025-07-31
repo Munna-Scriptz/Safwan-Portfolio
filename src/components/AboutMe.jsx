@@ -7,7 +7,7 @@ const AboutMe = () => {
     <>
         <section id='About_Me' className='mt-[70px] py-[120px]'>
             <div className="container">
-                <div className='AllDiv flex items-center justify-between'>
+                <div className='AllDiv flex items-center justify-between gap-5'>
                     <div id="LeftSide">
                         <p className='font-vollkorn text-[18px] font-medium text-[#EF8100]'>About me</p>
                         <h2 className='font-vollkorn text-[50px] font-medium text-primary'>At The Heart of Design is An Opportunity to Problem Solve.</h2>

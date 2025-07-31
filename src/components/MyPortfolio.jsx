@@ -13,17 +13,17 @@ const MyPortfolio = () => {
                 <div id="projectShow" className='flex gap-[29px] justify-center'>
                         {/* ----------------First Column------------- */}
                         <div className='flex flex-col gap-[29px] mt-[120px]'>
-                            <div className='w-[514px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
                                     
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
@@ -31,7 +31,7 @@ const MyPortfolio = () => {
                         </div>
                         {/* ----------------Second Column------------- */}
                         <div className='flex flex-col gap-[29px] mt-[40px]'>
-                            <div className='relative w-[514px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='relative w-[500px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
                                     
                                 </div>
@@ -40,12 +40,12 @@ const MyPortfolio = () => {
                                     <h2 className='font-vollkorn font-semibold text-[24px] text-primary mt-[6px]'>Daily Hydro-Drops</h2>
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
@@ -53,17 +53,17 @@ const MyPortfolio = () => {
                         </div>
                         {/* ----------------Third Column------------- */}
                         <div className='flex flex-col gap-[29px] mt-[120px]'>
-                            <div className='w-[514px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[660px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
                             </div>
-                            <div className='w-[514px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
+                            <div className='w-[500px] h-[400px] outline-1 outline-[#00413D] flex items-center justify-center p-[30px]'>
                                 <div className='w-full h-full bg-[#C4C4C4]'>
 
                                 </div>
