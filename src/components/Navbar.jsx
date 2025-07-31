@@ -7,7 +7,7 @@ import { HiMiniBars3BottomRight } from "react-icons/hi2";
 const Navbar = () => {
   return (
     <>
-        <nav className='py-[20px] border-[1px] border-[#D3DCD4]'>
+        <nav className='py-[20px] border-[1px] border-[#D3DCD4] hidden lg:block'>
             <div className="container">
                 <div id="NavRow" className='flex items-center justify-between'>
                     {/* ------Nav Img----- */}
