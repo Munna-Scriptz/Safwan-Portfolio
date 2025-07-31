@@ -12,12 +12,12 @@ const Footer = () => {
     <>
         <footer className='mt-[90px]'>
             <div className="container">
-                <div id="FooterRow" className='flex items-center justify-between mb-[80px]'>
+                <div id="FooterRow" className='flex lg:flex-row flex-col lg:gap-0 gap-5 lg:items-center lg:justify-between lg:mb-[80px] mb-[30px]'>
                     {/* --------First Column--------   */}
                     <div>
                         <img src={FooterLogo} alt="Logo" />
-                        <p className='font-jost text-[15px] w-[282px] text-[#4B7773] mt-[22px]'>Design League is the world’s leading community have for creatives to share, grow, and learn. Design League is the world’s leading community.</p>
-                        <div className='mt-[32px] flex items-center gap-[24px] text-[20px]'>
+                        <p className='font-jost text-[15px] lg:w-[282px] w-full text-[#4B7773] mt-[22px]'>Design League is the world’s leading community have for creatives to share, grow, and learn. Design League is the world’s leading community.</p>
+                        <div className='lg:mt-[32px] mt-[24px] flex items-center gap-[24px] text-[20px]'>
                             <div className='px-[9px] py-[11px] hover:bg-second hover:text-white duration-[.3s] rounded-[8px] cursor-pointer text-[#4C4C4C]'>
                                 <FaFacebookF/>
                             </div>
@@ -37,8 +37,8 @@ const Footer = () => {
                     </div>
                     {/* --------second Column--------   */}
                     <div>
-                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Product</h2>
-                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold lg:mb-[24px] mb-[15px] uppercase'>Product</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col lg:gap-[18px] gap-[10px]'>
                             <Link to={'/'}>Features</Link>
                             <Link to={'/'}>Pricing</Link>
                             <Link to={'/'}>Case studies</Link>
@@ -48,8 +48,8 @@ const Footer = () => {
                     </div>
                     {/* --------third Column--------   */}
                     <div>
-                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Company</h2>
-                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold lg:mb-[24px] mb-[15px] uppercase'>Company</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col lg:gap-[18px] gap-[10px]'>
                             <Link to={'/'}>About</Link>
                             <Link to={'/'}>Contact us</Link>
                             <Link to={'/'}>Careers</Link>
@@ -59,8 +59,8 @@ const Footer = () => {
                     </div>
                     {/* --------fourth Column--------   */}
                     <div>
-                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Support</h2>
-                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold lg:mb-[24px] mb-[15px] uppercase'>Support</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col lg:gap-[18px] gap-[10px]'>
                             <Link to={'/'}>Getting started</Link>
                             <Link to={'/'}>Help center</Link>
                             <Link to={'/'}>Server status</Link>
@@ -70,8 +70,8 @@ const Footer = () => {
                     </div>
                     {/* --------fifth Column--------   */}
                     <div>
-                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold mb-[24px] uppercase'>Downloads</h2>
-                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col gap-[18px]'>
+                        <h2 className='text-[#4B7773] text-[20px] font-vollkorn font-bold lg:mb-[24px] mb-[15px] uppercase'>Downloads</h2>
+                        <div className='text-[#4B7773] text-[15px] font-jost font-normal flex flex-col lg:gap-[18px] gap-[10px]]'>
                             <Link to={'/'}>iOS</Link>
                             <Link to={'/'}>Android</Link>
                             <Link to={'/'}>Mac</Link>
