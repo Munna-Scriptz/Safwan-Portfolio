@@ -12,7 +12,7 @@ const ResNavbar = () => {
 
   return (
     <>
-        <nav className='relative py-[20px] border-[1px] border-[#D3DCD4] px-[16px] lg:hidden'>
+        <nav className='relative py-[20px] border-[1px] border-[#D3DCD4] lg:hidden'>
             <div className="container overflow-hidden">
                 <div id="NavRow" className='flex items-center justify-between'>
                     {/* ------Nav Img----- */}
@@ -24,7 +24,7 @@ const ResNavbar = () => {
                         <button className='hover:text-[#E5745D] duration-[.3s] cursor-pointer' onClick={()=>setMenu(!menu)}><HiMiniBars3BottomRight /></button>
                     </div>
                     {/* -----Nav Links----- */}
-                    <div className={`absolute left-0 top-0 w-full h-screen duration-[.5s] ${menu? 'left-[-500px]' : ''}`}>
+                    <div className={`absolute left-0 top-0 w-full h-screen duration-[.5s] ${menu? '' : 'left-[-500px]'}`}>
                             <ul className=' h-full w-[60%] bg-second p-5'>
                                 <div className='flex items-center justify-between'>
                                     <img src={Logo} alt="Logo" />
