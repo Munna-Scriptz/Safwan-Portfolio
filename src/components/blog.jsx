@@ -34,14 +34,14 @@ const blog = () => {
         <section id='Blog' className='mt-[140px]'>
             <div className="container">
                 <div id="TextHeader">
-                    <p className="font-vollkorn font-medium text-[18px] text-[#EF8100]">Our blog</p>
-                    <h2 className="font-vollkorn font-medium lg:text-[50px] text-[40px] text-primary lg:w-[457px] w-full leading-[60px] mt-[24px]">The Future of AI in Digital Marketing</h2>
+                    <p className="font-vollkorn font-medium text-[18px] text-[#EF8100]" data-aos="fade-up">Our blog</p>
+                    <h2 className="font-vollkorn font-medium lg:text-[50px] text-[40px] text-primary lg:w-[457px] w-full leading-[60px] mt-[24px]" data-aos="fade-up">The Future of AI in Digital Marketing</h2>
                 </div>
                 {/* ------------Blog---------- */}
                 <div className='flex flex-col gap-[30px] mt-[53px]'>
                     {
                         MyBlog.map((items , i)=>(
-                            <div key={i} className='w-full lg:h-[240px] h-full border-1 border-[#00413D1A] flex lg:flex-row lg:gap-0 gap-5 flex-col-reverse'>
+                            <div key={i} className='w-full lg:h-[240px] h-full border-1 border-[#00413D1A] flex lg:flex-row lg:gap-0 gap-5 flex-col-reverse' data-aos="fade-up">
                                 {/* -------First Row------ */}
                                 <ul className='flex gap-[14px] flex-col lg:pt-[36px] lg:pl-[42px] lg:pb-0 pb-5 pt-0 pl-[16px]'>
                                     <li className='text-[17px] font-medium font-jost text-[#00413D] flex items-center gap-[10px] opacity-[0.7]'><LuUser/><p>By {items.username}</p></li>

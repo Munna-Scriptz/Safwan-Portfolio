@@ -11,23 +11,23 @@ const Navbar = () => {
             <div className="container">
                 <div id="NavRow" className='flex items-center justify-between'>
                     {/* ------Nav Img----- */}
-                    <Link to={'/'}><img src={Logo} alt="Logo" /></Link>
+                    <Link to={'/'} data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="300"><img src={Logo} alt="Logo" /></Link>
 
                     {/* ------Nav Links----- */}
                     <div>
                         <ul className='flex items-center gap-[88px] font-jost text-[18px] font-normal text-primary'>
-                            <li><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Home</Link></li>
-                            <li><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Projects</Link></li>
-                            <li><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Pages</Link></li>
-                            <li><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Blog</Link></li>
-                            <li><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Contact</Link></li>
+                            <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="300"><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Home</Link></li>
+                            <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="400"><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Projects</Link></li>
+                            <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="600"><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Pages</Link></li>
+                            <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="700"><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Blog</Link></li>
+                            <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="800"><Link className=' hover:text-[#E5745D] duration-[.3s]' to={'/'}>Contact</Link></li>
                         </ul>
                     </div>
                     {/* ------Nav Buttons----- */}
                     <div className='flex items-center gap-[25px] text-[21px] text-primary'>
-                        <button className='hover:text-[#E5745D] duration-[.3s] cursor-pointer'><FiSearch /></button>
-                        <span className='w-[1px] h-[20px] bg-primary'></span>
-                        <button className='hover:text-[#E5745D] duration-[.3s] cursor-pointer'><HiMiniBars3BottomRight /></button>
+                        <button className='hover:text-[#E5745D] duration-[.3s] cursor-pointer' data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="900"><FiSearch /></button>
+                        <span className='w-[1px] h-[20px] bg-primary' data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="1000"></span>
+                        <button className='hover:text-[#E5745D] duration-[.3s] cursor-pointer' data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-delay="1100"><HiMiniBars3BottomRight /></button>
                     </div>
                 </div>
             </div>
