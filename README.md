@@ -1,12 +1,49 @@
-# React + Vite
+# 🧑‍💻 Minimal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal personal portfolio website designed to showcase projects, skills, and experience in a simple and elegant way. Focused on clarity, usability, and responsiveness.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- Minimal and modern UI design  
+- Fully responsive layout for all devices  
+- Projects showcase section  
+- About & skills section  
+- Contact section / social links  
+- Smooth navigation and clean typography  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- HTML  
+- CSS  
+- JavaScript  
+- (Optional) React / Tailwind CSS  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Munna-Scriptz/<your-repo-name>.git
+
+2. Open the project
+Navigate to the project folder.
+3. Run locally
+Open index.html in your browser
+or start the dev server if using a framework.
+
+🎯 Purpose
+This portfolio was built to present my work and skills in a clean, distraction-free layout, focusing on content and user experience rather than heavy visuals.
+
+📬 Contact
+Built by Munna-Scriptz
+Feel free to use, customize, or improve.
+Copy code
+
+---
+
+If you want an **even shorter version** (for very small repos) or a **React-specific minimal portfolio README**, I can do that too.
