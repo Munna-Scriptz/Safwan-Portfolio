@@ -28,7 +28,7 @@ A clean and minimal personal portfolio website designed to showcase projects, sk
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Munna-Scriptz/<your-repo-name>.git
+git clone https://github.com/Munna-Scriptz/Safwan-Portfolio.git
 
 2. Open the project
 Navigate to the project folder.
